@@ -1,0 +1,68 @@
+.navbar {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.carousel-item {
+    height: 100vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.caption
+{    
+    text-align: center;
+    padding-top: 220px;
+    color:white;
+}
+
+#card-1{
+  background-image: url(https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2022/09/15144355/Untitled-design-2-4-1600x900.jpg);
+  background-repeat: none;
+  background-size:cover;
+}
+#card-2{
+  background-image: url(https://pix10.agoda.net/geo/city/16850/1_16850_02.jpg?ca=6&ce=1&s=1920x822);
+  background-repeat: none;
+  background-size:cover;
+}
+#card-3{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw2-sZmxuzc2SWlCFWVJBXtZ02LpHUXPC3HA&usqp=CAU);
+  width: fit-content;
+  background-repeat: none;
+  background-size:cover;
+}
+#card-4{
+  background-image: url(https://images.thrillophilia.com/image/upload/s--aT91QNX5--/c_fill,g_auto,h_600,q_auto,w_975/f_auto,fl_strip_profile/v1/images/photos/000/013/602/original/1471702122_jaipur.jpg.jpg);
+  background-repeat: none;
+  background-size:cover;
+}
+.crd:hover{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    transition: 0.5s;
+    transform:scale(1.1);
+}
+
+#l1,#l2,#l3{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.fa 
+{
+    color: white;
+}
+
+.banner{
+  height: 60%;
+}
+
